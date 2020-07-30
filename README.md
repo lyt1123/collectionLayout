@@ -1,5 +1,6 @@
 # collectionLayout
 几种collectionView常用的布局
+
 1.item左对齐
 ![image](https://github.com/lyt1123/collectionLayout/blob/master/screenShoots/1.png)
 
