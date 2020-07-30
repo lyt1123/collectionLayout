@@ -1,0 +1,11 @@
+platform:ios, '8.0'
+
+target 'UICollectionViewLayout' do
+
+inhibit_all_warnings!
+
+pod 'Masonry'
+pod 'SDWebImage'
+
+
+end
