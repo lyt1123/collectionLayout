@@ -150,10 +150,10 @@
 		283D75A0247F4CAB0018B33E /* LeftEqualLayout */ = {
 			isa = PBXGroup;
 			children = (
-				283D7592247E3C740018B33E /* LYTLeftEqualFlowLayout.h */,
-				283D7593247E3C740018B33E /* LYTLeftEqualFlowLayout.m */,
 				283D758F247E37550018B33E /* MainViewController.h */,
 				283D7590247E37550018B33E /* MainViewController.m */,
+				283D7592247E3C740018B33E /* LYTLeftEqualFlowLayout.h */,
+				283D7593247E3C740018B33E /* LYTLeftEqualFlowLayout.m */,
 				283D7595247E48D10018B33E /* MyCollectionViewCell.h */,
 				283D7596247E48D10018B33E /* MyCollectionViewCell.m */,
 				283D7597247E48D10018B33E /* MyCollectionViewCell.xib */,
@@ -164,10 +164,10 @@
 		283D75A1247F4D210018B33E /* WaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
-				283D759D247F4C9F0018B33E /* LYTWaterFallFlowLayout.h */,
-				283D759E247F4C9F0018B33E /* LYTWaterFallFlowLayout.m */,
 				283D75A2247F86290018B33E /* WaterFallViewController.h */,
 				283D75A3247F86290018B33E /* WaterFallViewController.m */,
+				283D759D247F4C9F0018B33E /* LYTWaterFallFlowLayout.h */,
+				283D759E247F4C9F0018B33E /* LYTWaterFallFlowLayout.m */,
 				283D75A5247F86AB0018B33E /* WaterFallCollectionViewCell.h */,
 				283D75A6247F86AB0018B33E /* WaterFallCollectionViewCell.m */,
 			);
@@ -200,10 +200,10 @@
 		283D75CB247FA1860018B33E /* ScalingItemLayout */ = {
 			isa = PBXGroup;
 			children = (
-				283D75CC247FA23F0018B33E /* LYTScalItemFlowLayout.h */,
-				283D75CD247FA23F0018B33E /* LYTScalItemFlowLayout.m */,
 				283D75CF247FA3730018B33E /* ScalItemViewController.h */,
 				283D75D0247FA3730018B33E /* ScalItemViewController.m */,
+				283D75CC247FA23F0018B33E /* LYTScalItemFlowLayout.h */,
+				283D75CD247FA23F0018B33E /* LYTScalItemFlowLayout.m */,
 			);
 			path = ScalingItemLayout;
 			sourceTree = "<group>";
@@ -211,10 +211,10 @@
 		283D75D224809DDA0018B33E /* CircleItemLayout */ = {
 			isa = PBXGroup;
 			children = (
-				283D75D324809EE50018B33E /* LYTCircleFlowLayout.h */,
-				283D75D424809EE50018B33E /* LYTCircleFlowLayout.m */,
 				283D75D62480A2EA0018B33E /* CirlcleItemViewController.h */,
 				283D75D72480A2EA0018B33E /* CirlcleItemViewController.m */,
+				283D75D324809EE50018B33E /* LYTCircleFlowLayout.h */,
+				283D75D424809EE50018B33E /* LYTCircleFlowLayout.m */,
 			);
 			path = CircleItemLayout;
 			sourceTree = "<group>";
