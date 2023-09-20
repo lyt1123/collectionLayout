@@ -23,7 +23,7 @@ UICollectionViewDataSource>
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    self.dataCount = 15;
+    self.dataCount = 16;
     
     [self.collectionView reloadData];
 }
@@ -43,7 +43,7 @@ UICollectionViewDataSource>
     collectionView.dataSource = self;
     collectionView.backgroundColor = [UIColor lightGrayColor];
     [collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cellID"];
-    collectionView.bounces = NO;
+//    collectionView.bounces = NO;
     self.collectionView = collectionView;
     [self.view addSubview:collectionView];
 }
@@ -56,7 +56,14 @@ UICollectionViewDataSource>
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
-    cell.contentView.backgroundColor = [UIColor colorWithRed:arc4random() % 255 /255 green:arc4random() % 255 /255 blue:arc4random() % 255 /255 alpha:1];
+    
+    CGFloat r = arc4random() % 255;
+    
+    CGFloat g = arc4random() % 255;
+    
+    CGFloat b = arc4random() % 255;
+    
+    cell.backgroundColor = [UIColor colorWithRed:r / 255  green:g / 255  blue:b / 255  alpha:1];
     cell.layer.masksToBounds = YES;
     cell.layer.cornerRadius = 25;
     return cell;

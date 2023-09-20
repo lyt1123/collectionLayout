@@ -13,6 +13,8 @@
 //item宽度
 - (CGFloat)widthForItemIndexPath:(NSIndexPath *)indexPath itemHeight:(CGFloat)itemHeight;
 
+- (void)getContentSize:(CGSize)contentSize;
+
 @end
 
 @interface LYTLeftEqualFlowLayout : UICollectionViewFlowLayout

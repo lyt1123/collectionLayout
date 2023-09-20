@@ -144,7 +144,14 @@
 
 - (CGSize)collectionViewContentSize
 {
-    return CGSizeMake(self.collectionView.contentSize.width, _currentTop + _itemHeight + _collectionInsets.bottom);
+    CGSize contentSize = CGSizeMake(self.collectionView.contentSize.width, _currentTop + _itemHeight + _collectionInsets.bottom);
+    
+    if ([self.delegate respondsToSelector:@selector(getContentSize:)])
+    {
+        [self.delegate getContentSize:contentSize];
+    }
+    
+    return contentSize;
 }
 
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect

@@ -25,6 +25,14 @@
     
     self.navigationController.navigationBar.translucent = NO;
     
+    UINavigationBarAppearance *barApp = [UINavigationBarAppearance new];
+    barApp.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor blackColor],
+                                   NSFontAttributeName: [UIFont systemFontOfSize:16 weight:UIFontWeightMedium]};
+    barApp.backgroundColor = [UIColor whiteColor];
+    barApp.shadowColor = [UIColor lightGrayColor];
+    self.navigationController.navigationBar.scrollEdgeAppearance = barApp; // 可滑动界面配置
+    self.navigationController.navigationBar.standardAppearance = barApp; // 普通页面配置
+    
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.dataArray = @[@"左对齐",@"瀑布流",@"缩放",@"圆环"];

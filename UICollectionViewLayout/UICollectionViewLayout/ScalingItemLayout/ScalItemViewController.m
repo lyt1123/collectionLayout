@@ -28,9 +28,9 @@ UICollectionViewDataSource>
     layout.minimumLineSpacing = 20;
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
-    CGFloat itemWidth = self.view.frame.size.width - 20 - 100;
+    CGFloat itemWidth = self.view.frame.size.width - 80;
     layout.itemSize = CGSizeMake(itemWidth, 200);
-    layout.sectionInset = UIEdgeInsetsMake(0, 20, 0, 20);
+    layout.sectionInset = UIEdgeInsetsMake(0, 40, 0, 40);
     
     UICollectionView *collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 200) collectionViewLayout:layout];
     collectionView.delegate = self;
